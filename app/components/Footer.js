@@ -13,7 +13,7 @@ export default function Footer() {
       <a class="nav-link" href="https://emojipedia.org/"
           target="_blank"
           rel="noopener noreferrer">Emoji</a>
-      <a class="nav-link" href="https://github.com/javierandresgp/"
+      <a class="nav-link" href="https://www.javierandresgp.com"
           target="_blank"
           rel="noopener noreferrer">Developer</a>
     </nav>
