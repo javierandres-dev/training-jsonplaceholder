@@ -2,7 +2,7 @@
 :open_file_folder: github_pages-jsonplaceholder
 
 ## Description
-This project is based on all the data available in the [REST API JSONplaceholder](https://jsonplaceholder.typicode.com/).  
+Consuming all available data in the most popular testing API.  
 How does it look? Take a look at [JSONplaceholder](https://javierandresgp.github.io/github_pages-jsonplaceholder/)
 
 ## Stack
@@ -10,6 +10,7 @@ How does it look? Take a look at [JSONplaceholder](https://javierandresgp.github
 * CSS
 * JavaScript
 * Bootstrap
+* [JSONplaceholder API](https://jsonplaceholder.typicode.com/)
 
 ## Software engineer
 [Javier Andrés Garzón Patarroyo](https://www.javierandresgp.com)
