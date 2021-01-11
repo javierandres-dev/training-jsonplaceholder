@@ -13,4 +13,4 @@ How does it look? Take a look at [JSONplaceholder](https://javierandresgp.github
 * [JSONplaceholder API](https://jsonplaceholder.typicode.com/)
 
 ## Software engineer
-[Javier Andrés Garzón Patarroyo](https://www.javierandresgp.com)
+[Javier Andrés GP](https://www.javierandresgp.com)
