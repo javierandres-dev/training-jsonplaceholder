@@ -22,14 +22,14 @@ export default async function Router() {
     .then((data) => {
       const [posts, comments, albums, photos, todos, users] = data,
         { hash } = location,
-        $h1 = d.createElement("h1"),
+        $h2 = d.createElement("h2"),
         $p = d.createElement("p"),
         $aside = d.querySelector("aside");
-      $h1.classList.add("text-center");
+      $h2.classList.add("text-center");
       //$main.innerHTML = null;
       if (hash === "" || hash === "#/") {
-        $h1.textContent = "Welcome";
-        $main.appendChild($h1);
+        $h2.textContent = "Welcome";
+        $main.appendChild($h2);
         $p.classList.add("lead");
         $p.textContent =
           "I created this SPA using vanilla JavaScript, for the styles I used Bootstrap.  It is created base on all the data available in the REST API JSONplaceholder.";

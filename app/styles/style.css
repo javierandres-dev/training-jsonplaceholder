@@ -1,0 +1,30 @@
+:root {
+  --lightblue: #05a6f1;
+}
+.dev {
+  position: sticky;
+  top: 0;
+  background-color: inherit;
+  color: inherit;
+  padding: 1rem;
+}
+.dev h1 {
+  text-align: center;
+  font-size: xx-large;
+}
+.dev p {
+  text-align: right;
+}
+.dev p span {
+  font-size: inherit;
+}
+.dev a:link {
+  color: var(--lightblue);
+}
+
+@media screen and (min-width: 768px) {
+  .dev {
+    display: flex;
+    justify-content: space-between;
+  }
+}
