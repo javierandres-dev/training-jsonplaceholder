@@ -1,7 +1,7 @@
 "use strict";
 export default function Header() {
   const $header = document.createElement("header");
-  $header.classList.add("dev");
+  $header.classList.add("jagp");
   $header.innerHTML = `
 <h1>
   © Built by

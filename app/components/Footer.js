@@ -1,7 +1,7 @@
 "use strict";
 export default function Footer() {
   const $footer = document.createElement("footer");
-  $footer.classList.add("dev");
+  $footer.classList.add("jagp");
   $footer.innerHTML = `
 <h2>
   © Built by
