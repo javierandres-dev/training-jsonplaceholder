@@ -1,3 +1,4 @@
+"use strict";
 export default function Photos() {
   const $photos = document.createElement("div");
   $photos.setAttribute("id", "photosModal");

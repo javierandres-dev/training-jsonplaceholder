@@ -1,3 +1,4 @@
+"use strict";
 export default function Users() {
   const $users = document.createElement("ul");
   $users.setAttribute("id", "usersContent");

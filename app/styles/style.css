@@ -1,30 +1,35 @@
-:root {
-  --lightblue: #05a6f1;
-}
+/* DEVELOPER
+  ============================= */
 .dev {
-  position: sticky;
-  top: 0;
-  background-color: inherit;
-  color: inherit;
-  padding: 1rem;
+  margin: 0;
+  color: gray;
 }
-.dev h1 {
-  text-align: center;
-  font-size: xx-large;
-}
-.dev p {
-  text-align: right;
-}
-.dev p span {
-  font-size: inherit;
+.dev a {
+  color: #05a6f1;
 }
 .dev a:link {
-  color: var(--lightblue);
+  text-decoration: none;
 }
-
-@media screen and (min-width: 768px) {
-  .dev {
-    display: flex;
-    justify-content: space-between;
-  }
+.dev a:visited {
+  font-style: italic;
+}
+.dev a:hover {
+  text-decoration: underline;
+}
+.dev a:active {
+  font-style: italic;
+  text-decoration: underline;
+  color: gray;
+}
+.dev h1,
+.dev h2 {
+  margin: 0;
+  font-size: 16px;
+  padding: 8px 16px;
+}
+.dev h1 {
+  text-align: start;
+}
+.dev h2 {
+  text-align: end;
 }

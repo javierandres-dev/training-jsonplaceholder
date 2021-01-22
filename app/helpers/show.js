@@ -1,3 +1,4 @@
+"use strict";
 import queryApi from "./rest-api.js";
 const d = document;
 async function showUser(id) {

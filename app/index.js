@@ -1,7 +1,4 @@
-/**
- * Main script
- * Here the invocation of the other scripts is generated
- */
+"use strict";
 import { App } from "./App.js";
 import {
   showUser,

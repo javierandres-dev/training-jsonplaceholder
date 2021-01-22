@@ -1,4 +1,4 @@
-// make a query to the API
+"use strict";
 export default async function queryApi(resource) {
   try {
     const url = `https://jsonplaceholder.typicode.com/${resource}`,

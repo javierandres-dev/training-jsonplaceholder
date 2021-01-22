@@ -1,3 +1,4 @@
+"use strict";
 import Spinner from "./Spinner.js";
 import queryApi from "../helpers/rest-api.js";
 import Users from "./Users.js";

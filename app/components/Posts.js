@@ -1,3 +1,4 @@
+"use strict";
 export default function Posts() {
   const $posts = document.createElement("div");
   $posts.setAttribute("id", "postsModal");
