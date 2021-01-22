@@ -9,7 +9,9 @@ How does it look? Take a look at [JSONplaceholder](https://javierandresgp.github
 * HTML
 * CSS
 * JavaScript
+### Framework
 * Bootstrap
+### API
 * [JSONplaceholder API](https://jsonplaceholder.typicode.com/)
 
 ## Software engineer
