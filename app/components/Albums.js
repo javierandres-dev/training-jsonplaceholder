@@ -1,4 +1,5 @@
 "use strict";
+// set up the view of the albums
 export default function Albums() {
   const $albums = document.createElement("div");
   $albums.setAttribute("id", "albumsModal");

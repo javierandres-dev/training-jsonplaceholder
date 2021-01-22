@@ -1,4 +1,5 @@
 "use strict";
+// set up the view of the user
 export default function User() {
   const $user = document.createElement("div");
   $user.setAttribute("id", "userModal");

@@ -1,4 +1,5 @@
 "use strict";
+// set up the view of the tasks
 export default function Tasks() {
   const $tasks = document.createElement("div");
   $tasks.setAttribute("id", "tasksModal");

@@ -1,6 +1,7 @@
 "use strict";
 import queryApi from "./rest-api.js";
 const d = document;
+// request and show all data available of a specific user
 async function showUser(id) {
   const user = await queryApi(`users/${id}`);
   const $user = d.getElementById("userContent");
@@ -57,6 +58,7 @@ async function showUser(id) {
 </li>
   `;
 }
+// request and show all tasks available of a specific user
 async function showTasks(id) {
   const tasks = await queryApi(`users/${id}/todos`);
   const $tList = d.getElementById("taskList");
@@ -92,6 +94,7 @@ async function showTasks(id) {
     `;
   });
 }
+// request and show all posts available of a specific user
 async function showPosts(id) {
   const posts = await queryApi(`users/${id}/posts`);
   const $content = d.getElementById("postContent");
@@ -113,6 +116,7 @@ async function showPosts(id) {
     `;
   });
 }
+// request and show all comments available of a specific post
 async function showComments(id) {
   const comments = await queryApi(`posts/${id}/comments`);
   const $content = d.getElementById("commentsContent");
@@ -133,6 +137,7 @@ async function showComments(id) {
     `;
   });
 }
+// request and show all albums available of a specific user
 async function showAlbums(id) {
   const albums = await queryApi(`users/${id}/albums`);
   const $content = d.getElementById("albumsContent");
@@ -151,6 +156,7 @@ async function showAlbums(id) {
     `;
   });
 }
+// request and show all photos available of a specific album
 async function showPhotos(id) {
   const photos = await queryApi(`albums/${id}/photos`);
   const $content = d.getElementById("photosContent");

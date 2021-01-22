@@ -1,4 +1,5 @@
 "use strict";
+// set up the view of the navigation bar
 export default function Nav() {
   const $nav = document.createElement("nav");
   $nav.classList.add("navbar", "navbar-expand-md", "navbar-light", "bg-light");

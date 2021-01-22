@@ -1,4 +1,5 @@
 "use strict";
+// set up the view of the comments
 export default function Comments() {
   const $comments = document.createElement("div");
   $comments.setAttribute("id", "commentsModal");

@@ -8,8 +8,11 @@ import {
   showAlbums,
   showPhotos,
 } from "./helpers/show.js";
+// when the document tree already loaded ...
 document.addEventListener("DOMContentLoaded", App);
-window.addEventListener("hashchange", App);
+// when all scripts and styles already loaded ...
+window.onload = () => window.addEventListener("hashchange", App);
+// event listeners
 document.addEventListener("click", (e) => {
   if (e.target.name === "btnUser") {
     const userId = e.target.getAttribute("data-userId");

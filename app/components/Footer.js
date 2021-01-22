@@ -1,4 +1,5 @@
 "use strict";
+// set up the view of the "footer" tag
 export default function Footer() {
   const $footer = document.createElement("footer");
   $footer.classList.add("jagp");

@@ -8,6 +8,7 @@ import Posts from "./Posts.js";
 import Comments from "./Comments.js";
 import Albums from "./Albums.js";
 import Photos from "./Photos.js";
+// request and set the view of the differents routes
 export default async function Router() {
   const d = document,
     $main = d.querySelector("main");
@@ -23,14 +24,14 @@ export default async function Router() {
     .then((data) => {
       const [posts, comments, albums, photos, todos, users] = data,
         { hash } = location,
-        $h2 = d.createElement("h2"),
+        $h3 = d.createElement("h3"),
         $p = d.createElement("p"),
         $aside = d.querySelector("aside");
-      $h2.classList.add("text-center");
+      $h3.classList.add("text-center", "display-4");
       //$main.innerHTML = null;
       if (hash === "" || hash === "#/") {
-        $h2.textContent = "Welcome";
-        $main.appendChild($h2);
+        $h3.textContent = "JSONplaceholder";
+        $main.appendChild($h3);
         $p.classList.add("lead");
         $p.textContent =
           "I created this SPA using vanilla JavaScript, for the styles I used Bootstrap.  It is created base on all the data available in the REST API JSONplaceholder.";
@@ -55,35 +56,35 @@ export default async function Router() {
         let flag = 0;
         switch (hash) {
           case "#/all-users":
-            $h1.textContent = `There are ${users.length} users.`;
+            $h3.textContent = `There are ${users.length} users.`;
             console.info("Users:", users);
             break;
           case "#/all-posts":
-            $h1.textContent = `There are ${posts.length} posts.`;
+            $h3.textContent = `There are ${posts.length} posts.`;
             console.info("Posts:", posts);
             break;
           case "#/all-albums":
-            $h1.textContent = `There are ${albums.length} albums.`;
+            $h3.textContent = `There are ${albums.length} albums.`;
             console.info("Albums:", albums);
             break;
           case "#/all-todos":
-            $h1.textContent = `There are ${todos.length} todos.`;
+            $h3.textContent = `There are ${todos.length} todos.`;
             console.info("Todos:", todos);
             break;
           case "#/all-comments":
-            $h1.textContent = `There are ${comments.length} comments.`;
+            $h3.textContent = `There are ${comments.length} comments.`;
             console.info("Comments:", comments);
             break;
           case "#/all-photos":
-            $h1.textContent = `There are ${photos.length} photos.`;
+            $h3.textContent = `There are ${photos.length} photos.`;
             console.info("Photos:", photos);
             break;
           default:
-            $h1.textContent = `Oops! Page not found.`;
+            $h3.textContent = `Oops! Page not found.`;
             flag++;
             break;
         }
-        $main.appendChild($h1);
+        $main.appendChild($h3);
         if (flag === 0) {
           $p.textContent =
             "You can open the browser console to see all data of the query.";
