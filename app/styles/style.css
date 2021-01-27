@@ -1,39 +1,32 @@
-/* JAGP
+/* DEVELOPER
   ============================= */
-.jagp {
-  margin: 0;
-  font-size: 16px;
-  font-weight: lighter;
+.dev {
   font-family: sans-serif;
-  color: gray;
-}
-.jagp a {
-  color: #05a6f1;
-}
-.jagp a:link {
-  text-decoration: none;
-}
-.jagp a:visited {
-  font-style: italic;
-}
-.jagp a:hover {
-  text-decoration: underline;
-}
-.jagp a:active {
-  font-style: italic;
-  text-decoration: underline;
-  color: gray;
-}
-.jagp h1,
-.jagp h2 {
-  margin: 0;
   font-size: 16px;
   font-weight: lighter;
+  color: gray;
   padding: 8px 16px;
 }
-.jagp h1 {
+.dev .top {
   text-align: left;
 }
-.jagp h2 {
+.dev .bottom {
   text-align: right;
+}
+.dev a {
+  color: #05a6f1;
+}
+.dev a:link {
+  text-decoration: none;
+}
+.dev a:visited {
+  font-style: italic;
+}
+.dev a:hover {
+  text-decoration: underline;
+}
+.dev a:active {
+  font-style: italic;
+  text-decoration: underline;
+  color: gray;
 }
