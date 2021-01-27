@@ -1,5 +1,5 @@
 "use strict";
-// set up the view of the "bottom" tag
+// set up Bottom component
 export default function Bottom() {
   const $bottom = document.createElement("div");
   $bottom.classList.add("dev");
