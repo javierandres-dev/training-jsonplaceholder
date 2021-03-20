@@ -1,9 +1,9 @@
-# GitHub Pages
-:open_file_folder: github_pages-jsonplaceholder
+# Self―Training
+:octocat: training-jsonplaceholder
 
 ## Description
 Consuming all available data in the most popular testing API.  
-How does it look? Take a look at [JSONplaceholder](https://javierandresgp.github.io/github_pages-jsonplaceholder/)
+How does it look? Take a look at [JSONplaceholder](https://javierandresgp.github.io/training-jsonplaceholder/)
 
 ## Stack
 * HTML
@@ -12,7 +12,7 @@ How does it look? Take a look at [JSONplaceholder](https://javierandresgp.github
 ### Framework
 * Bootstrap
 ### API
-* [JSONplaceholder API](https://jsonplaceholder.typicode.com/)
+* JSONplaceholder
 
 ## Software engineer
 [Javier Andrés Garzón Patarroyo](https://www.javierandresgp.com)
